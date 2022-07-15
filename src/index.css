@@ -68,6 +68,9 @@ body{
   margin: 30px 0;
   margin-left: 20px;
 }
+.content .blog-preview a{
+  text-decoration: none;
+}
 .content .blog-preview h2{
   font-size: 18px;
   font-weight: 600;
@@ -88,4 +91,71 @@ body{
 .content .blog-preview p{
   margin-left: 10px;
   font-size: 16px;
+}
+
+.blog-wrapper .blog-body{
+  text-align: justify;
+}
+.blog-wrapper .blog-author{
+  font-size: 14px;
+  margin:0 0 20px 0;
+}
+.blog-wrapper .blog-author a{
+  color: rgba(77, 77, 248, .80);
+}
+.blog-wrapper .blog-author a:hover{
+  color: rgb(77, 77, 248);
+}
+.blog-wrapper button{
+  margin-top: 30px;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  background-color: rgba(207, 32, 32, 0.767);
+  color: white;
+  font-weight: 500;
+  transition: .2s;
+  cursor: pointer;
+}
+.blog-wrapper button:hover{
+  background-color: rgb(207, 32, 32);
+  transition: .2s;
+  
+}
+.create form{
+  display: flex;
+  flex-direction: column;
+}
+.create label{
+  margin-top: 25px;
+}
+.create input, .create textarea, .create select{
+  box-sizing: border-box;
+  width: 70%;
+  border: none;
+  background-color: #f3f3f3;
+  padding: 7px;
+  border-radius: 10px;
+  transition: .1s;
+}
+.create input:hover, .create textarea:hover, .create select:hover{
+  background-color: #f8f8f8;
+  transition: .1s;
+}
+.create button{
+  width: 120px;
+  height: 30px;
+  margin: 25px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(77, 77, 248, .8);
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: .3s;
+}
+.create button:hover{
+  background-color: rgb(77, 77, 248);
+  transition: .3s;
 }
