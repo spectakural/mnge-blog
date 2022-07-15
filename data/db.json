@@ -1,0 +1,16 @@
+{
+    "blogs":[
+        {
+            "title": "My first Blog",
+            "body": "One dollar and eighty-seven cents. That was all. And sixty cents of it was in pennies. Pennies saved one and two at a time by bulldozing the grocer and the vegetable man and the butcher until one’s cheeks burned with the silent imputation of parsimony that such close dealing implied. One dollar and eighty-seven cents. And the next day would be Christmas...",
+            "author": "Kural",
+            "id": 1
+        },
+        {
+            "title": "Opening Party!",
+            "body": "It all started with the computer. Had he known what was to follow, he would have never logged on that day. But the truth was there was no way to know what was about to happen. So Dave pressed the start button, the computer booted up, the screen came alive, and everything Dave knew to be true no longer was.",
+            "author": "Anupam",
+            "id": 2
+        }
+    ]
+}
